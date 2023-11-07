@@ -37,16 +37,59 @@ img {
 
 nav {
   border: 1px solid #656a72;
-  background: linear-gradient(180deg, #5c616a 0%, rgba(92, 97, 106, 0) 276.39%);
   height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding-right: 20px;
 }
 
-main {
+.home {
+  background: linear-gradient(180deg, #5c616a 0%, rgba(92, 97, 106, 0) 276.39%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reg {
+  background: #e4e416;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+}
+
+.reg-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #fff;
+}
+
+.back-button {
+  position: absolute;
+  left: 24px;
+}
+
+.main-page {
   background: url(/img/bg.jpg), lightgray 50% / contain no-repeat;
+  box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 0.7);
+  display: block;
+  height: 100%;
+  padding-top: 73px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  text-align: center;
+  color: #fff;
+}
+
+.reg-page {
+  background: #fff;
   display: block;
   height: 100%;
   padding-top: 73px;
@@ -85,6 +128,11 @@ p {
   font-weight: 600;
   line-height: normal;
   margin-bottom: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .signup {
