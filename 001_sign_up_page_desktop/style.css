@@ -122,3 +122,23 @@ p {
   align-content: space-between;
   row-gap: 20px;
 }
+
+@media only screen and (min-width: 361px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  nav {
+    width: 360px;
+    height: 72px;
+    margin-top: 20px;
+  }
+  main {
+    width: 360px;
+    height: 728px;
+  }
+}
