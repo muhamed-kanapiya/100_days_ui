@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.svg">
 </head>
 
 <body>
@@ -18,16 +19,25 @@
     </nav>
     <main class="reg-page">
         <div>
-            <img src="/img/Logo.png" width="140px">
-            <h1>Let’s Go Outside</h1>
-            <p>Join our outdoor community. See tour adventures in one place, and get inspired by others</p>
+            <img src="/img/logo.svg" width="140px">
+            <div class="sign_up_form">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" placeholder="Rahul Gupta">
+                <label for="femail">Email:</label>
+                <input type="email" id="femail" placeholder="rahuluxui@gmail.com">
+                <label for="fpass">First name:</label>
+                <input type="password" id="fpass" placeholder="******">
+            </div>
             <div class="buttons">
                 <button class="signup"><a href="/signup.html">Signup</a></button>
-                <div>OR</div>
-                <button class="login">Login</button>
             </div>
+            <div class="sign_in_text">
+                <div class="sign_in_text_left">I ALREADY HAVE AN ACCOUNT</div>
+                <div class="sign_in_text_right">SIGN IN</div>
+            </div>
+            <button class="social_button"><img src="/img/google.svg"> Sign in with Google</button>
+            <button class="social_button"><img src="/img/facebook.svg">Sign in with Facebook</button>
         </div>
-        <div class="footer">SIGN UP FOR THE NEWSLETTER FOR MORE INFO</div>
     </main>
 </body>
 

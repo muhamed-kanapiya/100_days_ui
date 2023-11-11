@@ -36,7 +36,6 @@ img {
 }
 
 nav {
-  border: 1px solid #656a72;
   height: 72px;
   padding-right: 20px;
 }
@@ -161,6 +160,14 @@ a {
   display: block;
 }
 
+label {
+  color: #ebe4e4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .buttons {
   display: flex;
   flex-direction: column;
@@ -169,6 +176,81 @@ a {
   align-items: center;
   align-content: space-between;
   row-gap: 20px;
+}
+
+.sign_up_form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  row-gap: 10px;
+  text-align: left;
+  min-width: 264px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: #a2a2a8;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sign_in_text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  color: #a2a2a8;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.sign_in_text_left {
+  color: #a2a2a8;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sign_in_text_right {
+  color: #a2a2a8;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.social_button {
+  width: 264px;
+  padding: 16px 20px 13px 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  gap: 9px;
+  color: #a2a2a8;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 1px solid #000;
+  background: #fff;
 }
 
 @media only screen and (min-width: 361px) {
